@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  padding: 24px;
+  width: 270px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: center;
+  color: white;
+  background-color: #3F2AFF;
+  border-radius: 20px;
+}
+
+.btn--small {
+  padding: 21px 59px;
+  width: 202px;
+}

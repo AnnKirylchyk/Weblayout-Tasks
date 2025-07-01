@@ -1,0 +1,43 @@
+.main-nav {
+  margin-right: auto;
+}
+
+.main-nav__list {
+  display: flex;
+  gap: 96px;
+}
+
+.main-nav__link {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.51px;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.main-nav__link:focus-visible {
+  outline: none;
+}
+
+.main-nav__link:focus-visible::before {
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: -6px;
+  right: -6px;
+  bottom: -8px;
+  background-color: var(--dark-purple);
+  z-index: -1;
+
+}
+
+.main-nav__link:hover:not(:focus-visible) {
+  color: var(--dark-pink);
+}
+
+.main-nav__link:active:not(:focus-visible) {
+  color: var(--dark-purple);
+}

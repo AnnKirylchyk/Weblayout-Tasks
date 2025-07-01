@@ -1,0 +1,86 @@
+.address-form {
+  display: flex;
+  gap: 20px;
+}
+
+.address-form__input {
+  width: 270px;
+  padding: 9px 43px 9px 24px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color:  var(--bright-black);
+  border: 1px solid var(--bright-black);
+  border-radius: 100px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.address-form__input::placeholder {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color:  var(--bright-gray);
+}
+
+.address-form__input:focus-visible {
+  background-color: var(--light-gray);
+  outline: none;
+}
+
+.address-form__input:hover:not(:focus-visible) {
+  background-color: var(--light-gray);
+}
+
+.address-form__input--error {
+  border-color: var(--red);
+}
+
+.address-form__input-wrapper {
+  position: relative;
+}
+
+.address-form__input-error {
+  position: absolute;
+  left: 24px;
+  display: none;
+  color: var(--red);
+  font-size: 12px;
+  line-height: 16.34px;
+  top: -18px;
+}
+
+.address-form__input--error + .address-form__input-error {
+  display: block;
+}
+
+.address-form__btn {
+  padding: 12.5px 36px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.51px;
+  border: 2px solid var(--purple);
+  border-radius: 100px;
+  color: var(--purple);
+  cursor: pointer;
+  background-color: transparent;
+  transition: outline 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.address-form__btn:focus-visible {
+  outline: 2px solid var(--dark-pink);
+  outline-offset: 2px;
+}
+
+.address-form__btn:hover:not(:focus-visible) {
+  color: white;
+  background-color: var(--purple);
+}
+
+.address-form__btn:active:not(:focus-visible) {
+  color: white;
+  background-color: var(--dark-purple);
+  outline: 3px solid var(--pink);
+  border-color: var(--dark-purple);
+}

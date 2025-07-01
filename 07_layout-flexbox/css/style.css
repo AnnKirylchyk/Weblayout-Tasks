@@ -1,0 +1,213 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1170px;
+  font-family: 'font', sans-serif;
+}
+
+/* global */
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 13px 20px;
+  /*background-color: transparent;*/
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.section-offset {
+  padding: 35px 0px;
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+/* header */
+.header {
+ padding: 30px 0 35px 0;
+}
+.header-up {
+ align-items: center;
+}
+
+.header-logo {
+  margin-right: 40px;
+}
+
+.header-cabinet {
+  margin-left: auto;
+}
+
+.header-up {
+  margin-bottom: 30px;
+}
+
+.header-nav {
+  padding: 27px 45px;
+  align-items: center;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.nav-buttons {
+  margin-left: auto;
+}
+
+.header-firstbtn {
+  margin-right: 40px;
+}
+
+/* special-offers */
+.special-offers-block {
+  gap: 24px 24px;
+}
+
+.offers-block {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  flex-basis: calc((100% - 24px)/2);
+}
+
+.offers-article {
+  padding: 40px 45px;
+}
+
+.offers-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.offers-price {
+  margin: 0;
+  margin-bottom: 47px;
+}
+
+.offers-block-lux {
+  justify-content: flex-end;
+}
+
+/* about-us */
+.about-us-text {
+  width: 76%;
+  margin: 0;
+}
+
+/* services */
+.services-list {
+  flex-wrap: wrap;
+  gap: 24px 24px;
+}
+
+.services-item {
+  flex-basis: calc((100% - 24px)/2);
+  padding: 191px 126px 35px 45px;
+ /* border: 1px solid coral;*/
+}
+
+.services-link-title {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.services-text {
+  margin: 0;
+}
+
+/* advantages */
+.advantages-list {
+  flex-wrap: wrap;
+  gap: 22px 22px;
+}
+
+.advantages-item {
+  flex-basis: calc((100% - 22px*3)/4);
+  padding: 116px 42px 32px 45px;
+  /* border: 1px solid coral; */
+}
+
+.advantages-text {
+  margin: 0;
+}
+
+/* accommodation */
+.accommodation-list {
+  flex-wrap: wrap;
+  gap: 24px 24px;
+}
+
+.accommodation-item {
+  flex-basis: calc((100% - 24px*2)/3);
+}
+
+.accommodation-item-wrapper {
+  padding: 32px 42px 32px 45px;
+}
+
+.accommodation-item-descr {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.accommodation-name {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.accommodation-location {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.accommodation-item-rating {
+  margin: 0;
+}
+
+.accommodation-item-price {
+  justify-content: space-between;
+}
+
+.accomodation-last {
+  padding: 373px 70px 27px 54px;
+}
+
+.accomodation-last {
+  align-self: flex-end;
+}

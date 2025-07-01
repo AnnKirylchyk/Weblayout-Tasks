@@ -1,0 +1,43 @@
+.footer {
+  background-color: black;
+}
+
+.footer__wrapper {
+  padding: 47px 0 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__link {
+  display: flex;
+}
+
+.footer__soclink-list {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__soclink-item {
+  display: flex;
+}
+
+.footer__soclink {
+  display: flex;
+}
+
+.footer__soclink:focus-visible {
+  outline: none;
+}
+
+.footer__soclink:focus-visible path {
+  fill: white;
+}
+
+.footer__soclink:hover:not(:focus-visible) path {
+  fill: white;
+}
+
+.footer__soclink:active:not(:focus-visible) path {
+  fill: var(--purple);
+}

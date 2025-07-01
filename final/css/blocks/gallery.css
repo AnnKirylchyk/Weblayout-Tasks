@@ -1,0 +1,22 @@
+.gallery {
+  background-image: url(/img/gallery-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery__title {
+  margin-bottom: 20px;
+}
+
+.gallery__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 50px;
+}
+
+.gallery__list {
+  display: flex;
+  gap: 50px;
+}

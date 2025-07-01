@@ -1,0 +1,10 @@
+.catalog__text {
+  max-width: 1080px;
+  margin-bottom: 36px;
+}
+
+.catalog__list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

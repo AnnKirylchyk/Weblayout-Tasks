@@ -1,0 +1,61 @@
+.header {
+  background-color: #000000;
+}
+
+.header__wrapper {
+  display: flex;
+  padding: 30px 0 31px;
+  align-items: center;
+  gap: 96px;
+}
+
+.header__link {
+  display: flex;
+  margin-right: 85px;
+}
+
+.header__btn {
+  position: relative;
+  display: flex;
+  transition: background-color 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.header__btn path {
+  transition: fill 0.2s ease-in-out;
+}
+
+.header__btn rect {
+  transition: fill 0.2s ease-in-out;
+}
+
+.header__btn:focus-visible {
+  outline: none;
+}
+
+.header__btn:focus-visible::after {
+  position: absolute;
+  content: '';
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background-color: var(--dark-purple);
+  z-index: -1;
+}
+
+.header__btn:hover:not(:focus-visible) path{
+  fill: var(--dark-pink);
+}
+
+.header__btn:hover:not(:focus-visible) rect {
+  fill: var(--dark-pink);
+}
+
+.header__btn:active:not(:focus-visible) path {
+  fill: var(--purple);
+}
+
+.header__btn:active:not(:focus-visible) rect {
+  fill: var(--purple);
+}

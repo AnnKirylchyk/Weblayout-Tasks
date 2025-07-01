@@ -1,0 +1,54 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.advantages {
+  padding: 80px 0 75px;
+}
+
+.advantages__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 17px;
+}
+
+.advantages__inner {
+  width: calc((585 / 1110) * 100%);
+}
+
+.advantages__title {
+  margin-bottom: 19px;
+  width: 81%;
+}
+
+.advantages__list {
+  margin: 0 -15px;
+}
+
+.advantages__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantages__card-text {
+  padding: 16px 0;
+  margin: 0;
+  width: calc((240 / 350) * 100%);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  color: #666666;
+}

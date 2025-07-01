@@ -1,0 +1,91 @@
+
+.events-card {
+  display: flex;
+  height: 100%;
+}
+
+.events-card---mod {
+  flex-direction: column;
+}
+
+.events-card__wrapper {
+  padding: 13px 50px 37px;
+  border: 1px solid var(--bright-gray-more);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.events-card__title {
+  margin-bottom: 10px;
+}
+
+.events-card__date {
+  max-width: 145px;
+  margin-bottom: 13px;
+}
+
+.events-card__date--short {
+  max-width: 90px;
+}
+
+.events-card__text {
+  flex-grow: 1;
+  margin-bottom: 66px;
+}
+
+.events-card__link {
+  position: relative;
+  width: max-content;
+  font-weight: 400;
+  color: var(--purple);
+  font-size: 16px;
+  line-height: 32px;
+  z-index: 1;
+}
+
+.events-card__link::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  bottom: 2px;
+  background-color: var(--purple);
+}
+
+.events-card__link:focus-visible {
+  color: white;
+  outline: none;
+}
+
+.events-card__link:focus-visible::after {
+  background-color: white;
+}
+
+.events-card__link:focus-visible::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  bottom: -5px;
+  left: -8px;
+  right: -8px;
+  background-color: var(--purple);
+  z-index: -1;
+}
+
+.events-card__link:hover:not(:focus-visible)::after {
+  background-color: var(--dark-purple);
+}
+
+.events-card__link:hover:not(:focus-visible) {
+  color: var(--dark-purple);
+}
+
+.events-card__link:active:not(:focus-visible)::after {
+  background-color: var(--bright-black);
+}
+
+.events-card__link:active:not(:focus-visible) {
+  color: var(--bright-black);
+}

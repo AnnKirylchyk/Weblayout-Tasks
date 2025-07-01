@@ -1,0 +1,51 @@
+.contacts {
+  border: 1px solid var(--bright-gray-more);
+}
+
+.contacts__wrapper {
+  padding: 33px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.contacts__address {
+  font-style: normal;
+}
+
+.contacts__soclink {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__soclink-title {
+  margin-bottom: 6px;
+}
+
+.contacts__list {
+  display: flex;
+  gap: 20px;
+}
+
+.contacts__link {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.contacts__link:focus-visible {
+  opacity: 50%;
+  outline: none;
+}
+
+.contacts__link:hover:not(:focus-visible) {
+  opacity: 50%;
+}
+
+.contacts__link:active:not(:focus-visible) {
+  opacity: 100%;
+}
+
+.contacts__link:active:not(:focus-visible) svg {
+  border: 1px solid var(--purple);
+  border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+/* Global */
+/* ------------------------------------ */
+@import "global/normalize.css";
+@import "global/global.css";
+
+/* Blocks */
+/* ------------------------------------ */
+
+@import "blocks/header.css";
+@import "blocks/main-nav.css";
+@import "blocks/hero.css";
+@import "blocks/about-us.css";
+@import "blocks/gallery.css";
+@import "blocks/custom-checkbox.css";
+@import "blocks/catalog-card.css";
+@import "blocks/catalog.css";
+@import "blocks/events-card.css";
+@import "blocks/events.css";
+@import "blocks/projects.css";
+@import "blocks/contacts.css";
+@import "blocks/address-form.css";
+@import "blocks/footer.css";

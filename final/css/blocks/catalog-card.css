@@ -1,0 +1,21 @@
+.catalog-card {
+  display: flex;
+  align-items: center;
+}
+
+.catalog-card--mod {
+  flex-direction: row;
+  gap: 50px;
+}
+
+.catalog-card__img {
+  min-width: 750px;
+}
+
+.catalog-card__title {
+  margin-bottom: 10px;
+}
+
+.catalog-card__date {
+  margin-bottom: 15px;
+}

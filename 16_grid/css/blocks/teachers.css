@@ -1,0 +1,42 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.teachers {
+  padding: 73px 0;
+  background-color: #212133;
+}
+
+.teachers__title {
+  margin-bottom: 24px;
+}
+
+.teachers__list {
+  margin: 0 -15px;
+}
+
+.teachers__item {
+  background-color: transparent;
+}
+
+.teachers__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.teachers__img {
+  margin-bottom: 29px;
+  border-radius: 25px 25px 0 0;
+}
+
+.teachers__card-title {
+  margin-bottom: 10px;
+}

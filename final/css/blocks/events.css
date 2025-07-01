@@ -1,0 +1,8 @@
+.events__list {
+  display: flex;
+  gap: 50px;
+}
+
+.events__item {
+  width: calc((100% - 100px) / 3);
+}
